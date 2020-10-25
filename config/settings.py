@@ -64,6 +64,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
+        'DIRS': [str(BASE_DIR.joinpath('templates'))],
     },
 ]
 

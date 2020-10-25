@@ -1,0 +1,10 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Homepage</h1>
+
+<header>
+  <a href="{% url 'base' %}">Base</a> | <a href="{% url 'about' %}">About</a>
+</header>
+{% endblock %}
